@@ -1,0 +1,70 @@
+---
+import Section from "../Section.astro";
+import HTML from "@/icons/html.astro";
+import JavaScript from "@/icons/javascript.astro";
+import TypeScript from "@/icons/type.astro";
+import React from "@/icons/react.astro";
+import Node from "@/icons/node.astro";
+import MySQL from "@/icons/sql.astro";
+import Git from "@/icons/git.astro";
+import GitHub from "@/icons/GitHub.astro";
+import Tailwind from "@/icons/tailwind.astro";
+import Next from "@/icons/next.astro";
+import { skills } from "@cv";
+import Figma from "@/icons/Figma.astro";
+import Gitlab from "@/icons/Gitlab.astro";
+import Django from "@/icons/django.astro";
+import Spring from "@/icons/spring.astro";
+import AstroIcon from "@/icons/astro.astro";
+import Gatsby from "@/icons/gatsby.astro";
+import Docker from "@/icons/docker.astro";
+import Firebase from "@/icons/firebase.astro";
+import AwsEC2 from "@/icons/aws-ec2.astro";
+import AzureVMs from "@/icons/azure.astro";
+import FastAPI from "@/icons/fastapi.astro";
+import Angular from "@/icons/angular.astro";
+
+const SKILLS_ICONS: Record<string, any> = {
+	HTML,
+	JavaScript,
+	TypeScript,
+	React,
+	Node,
+	MySQL,
+	Git,
+	GitHub,
+	Next,
+	Tailwind,
+	Figma,
+	Gitlab,
+	Django,
+	Spring,
+	Gatsby,
+	Docker,
+	Firebase,
+	AwsEC2,
+	AzureVMs,
+	FastAPI,
+	Angular,
+	AstroIcon
+};
+---
+
+<Section className={Astro.props.className} title="Skills">
+	<ul
+		class="inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li>svg]:text-skin-hue [&>li]:text-sm"
+	>
+		{
+			skills.map(({ name }) => {
+				const iconName = name === "Next.js" ? "Next" : name === "Astro" ? "AstroIcon" : name;
+				const Icon = SKILLS_ICONS[iconName];
+
+				return (
+					<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
+						{Icon && <Icon />} <span>{name}</span>
+					</li>
+				);
+			})
+		}
+	</ul>
+</Section>

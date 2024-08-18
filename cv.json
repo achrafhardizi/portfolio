@@ -1,0 +1,453 @@
+{
+  "basics": {
+    "name": "Achraf Hardizi",
+    "label": "Full Stack Developer / Cybersecurity Student",
+    "image": "/profile.jpg",
+    "email": "hardiziachraf@gmail.com",
+    "url": "https://johndoe.dev",
+    "summary": "Tech enthusiast who transitioned from full-stack development to cybersecurity. CTF Player . I now focus on securing systems and data from cyber threats",
+    "location": {
+      "address": "",
+      "postalCode": "30000",
+      "city": "Fes",
+      "countryCode": "MA",
+      "region": "Morocco"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Achraf HARDIZI",
+        "url": "https://linkedin.com/in/achrafhardizi"
+      },
+      {
+        "network": "X",
+        "username": "achrafhardizi.sec",
+        "url": "https://x.com/AchrafHardEasy"
+      },
+      {
+        "network": "GitHub",
+        "username": "achrafhardizi",
+        "url": "https://github.com/achrafhardizi"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "École Nationale des Sciences Appliquées de Fès",
+      "position": "Cybersecurity Intern",
+      "location_type": "Hybrid",
+      "location": "Fez, Fès-Meknès, Morocco",
+      "url": "",
+      "startDate": "2024-07-01",
+      "endDate": "2024-08-01",
+      "summary": "Configured and managed a secure mail server using Postfix, Dovecot, ClamAV, and SpamAssassin. Implemented DKIM, DMARC, SPF, and TLS certificates with Certbot for email security. Developed security policies and automated protection with Fail2Ban.",
+      "highlights": [],
+      "responsibilities": [
+        "Configured and managed a secure mail server using Postfix, Dovecot, ClamAV, and SpamAssassin.",
+        "Implemented DKIM, DMARC, SPF, and TLS certificates with Certbot for email security.",
+        "Developed security policies and automated protection with Fail2Ban."
+      ],
+      "achievements": [
+        "Successfully established a secure mail server environment.",
+        "Enhanced email security with DKIM, DMARC, SPF, and TLS configurations.",
+        "Automated security measures and incident responses with Fail2Ban."
+      ],
+      "skills": [
+        "Postfix",
+        "Dovecot",
+        "ClamAV",
+        "SpamAssassin",
+        "DKIM",
+        "DMARC",
+        "SPF",
+        "TLS",
+        "Certbot",
+        "Fail2Ban"
+      ]
+    },
+    {
+      "name": "École Nationale des Sciences Appliquées de Fès",
+      "position": "Odoo Developer Intern",
+      "location_type": "Hybrid",
+      "location": "Fez, Fès-Meknès, Morocco",
+      "url": "",
+      "startDate": "2023-04-01",
+      "endDate": "2023-07-01",
+      "summary": "Integrated financial services (invoice flow, budget commitments, and payments) into a centralized module. Gained proficiency with Odoo technology and its capabilities. Implemented a backup system to protect critical information.",
+      "highlights": [],
+      "responsibilities": [
+        "Integrated financial services (invoice flow, budget commitments, and payments) into a centralized Odoo module.",
+        "Gained proficiency with Odoo technology and its capabilities.",
+        "Implemented a backup system to protect critical information."
+      ],
+      "achievements": [
+        "Successfully integrated financial services into a centralized module, streamlining financial processes.",
+        "Enhanced Odoo system capabilities and efficiency.",
+        "Established a reliable backup system to safeguard critical data."
+      ],
+      "skills": [
+        "Odoo",
+        "Python",
+        "Django"
+      ]
+    },
+    {
+      "name": "Ministère de la Justice Maroc",
+      "position": "Frontend Developer Intern",
+      "location_type": "Hybrid",
+      "location": "Meknes, Fès-Meknès, Morocco",
+      "url": "",
+      "startDate": "2022-04-01",
+      "endDate": "2022-06-01",
+      "summary": "Designed user interface to meet client specifications using Figma. Built website leveraging original theme creation with React. Developed site navigation by categorizing content and funneling traffic through content.",
+      "highlights": [],
+      "responsibilities": [
+        "Designed user interfaces to meet client specifications using Figma.",
+        "Built websites leveraging original theme creation with React.",
+        "Developed site navigation by categorizing content and funneling traffic through content."
+      ],
+      "achievements": [
+        "Delivered client websites meeting design specifications and functionality requirements.",
+        "Created and implemented custom themes using React for enhanced website appearance and performance.",
+        "Optimized site navigation to improve user experience and content accessibility."
+      ],
+      "skills": [
+        "Figma",
+        "React"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Local Coding Club",
+      "position": "Volunteer",
+      "url": "https://codingclub.com/",
+      "startDate": "2021-01-01",
+      "endDate": "2022-01-01",
+      "summary": "Helped organize coding workshops and mentored new members.",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ecole Normale Supérieure de l’Enseignement Technique",
+      "url": "https://www.enset-media.ac.ma/",
+      "area": "Cybersecurity and Digital Trust",
+      "studyType": "Engineering Degree",
+      "startDate": "2023-07-01",
+      "endDate": "2026-03-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Ecole Supérieure de Technologie",
+      "url": "https://www.est-umi.ac.ma/",
+      "area": "Computer Science",
+      "studyType": "Professional License",
+      "startDate": "2022-10-01",
+      "endDate": "2023-06-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Ecole Supérieure de Technologie",
+      "url": "https://www.est-umi.ac.ma/",
+      "area": "Computer Science",
+      "studyType": "University Diploma of Technology (DUT)",
+      "startDate": "2020-01-01",
+      "endDate": "2022-07-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "certificates": [
+    {
+      "name": "EF SET English Certificate C2",
+      "date": "",
+      "issuer": "EF Standard English Test (EF SET)",
+      "url": "https://cert.efset.org/KnuykW"
+    }
+  ],
+  "skills": [
+    {
+      "name": "React",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Django",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Python Framework",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermediate",
+      "keywords": [
+        "Databases",
+        "SQL",
+        "Data Storage",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Intermediate",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Source Code"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermediate",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Source Code",
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "Spring",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend",
+        "Java Framework",
+        "Web Development",
+        "Enterprise Applications"
+      ]
+    },
+    {
+      "name": "Astro",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Static Site Generation",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Gatsby",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Static Site Generation",
+        "React"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Intermediate",
+      "keywords": [
+        "Containerization",
+        "DevOps",
+        "Deployment",
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "Firebase",
+      "level": "Beginner",
+      "keywords": [
+        "Backend-as-a-Service",
+        "Database",
+        "Authentication",
+        "Real-time Data"
+      ]
+    },
+    {
+      "name": "AwsEC2",
+      "level": "Intermediate",
+      "keywords": [
+        "Cloud Computing",
+        "Virtual Machines",
+        "Deployment",
+        "Scalability"
+      ]
+    },
+    {
+      "name": "AzureVMs",
+      "level": "Intermediate",
+      "keywords": [
+        "Cloud Computing",
+        "Virtual Machines",
+        "Deployment",
+        "Scalability"
+      ]
+    },
+    {
+      "name": "FastAPI",
+      "level": "Beginner",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Python Framework",
+        "API Development"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Beginner",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Framework",
+        "SPA"
+      ]
+    },
+    {
+      "name": "Odoo",
+      "level": "Intermediate",
+      "keywords": [
+        "ERP",
+        "Business Applications",
+        "Customization"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Arabic",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "French",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Beginner"
+    }
+  ],
+  "interests": [
+    {
+      "name": "DevOps",
+      "keywords": [
+        "Docker",
+        "CI/CD",
+        "Jenkins"
+      ]
+    },
+    {
+      "name": "AI",
+      "keywords": [
+        "ML",
+        "Generative AI"
+      ]
+    },
+    {
+      "name": "Security",
+      "keywords": [
+        "IDS/IPS",
+        "Malware"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Eventlik",
+      "isActive": false,
+      "description": "A platform for managing events, helping event hosts find volunteers, and simplifying ticket management. Features built-in AI for recommendations based on interests.",
+      "highlights": [
+        "Managed events and simplified ticket management",
+        "Helped event hosts find volunteers",
+        "Integrated AI for recommendations based on interests"
+      ],
+      "url": "",
+      "github": "https://github.com/EventLik"
+    },
+    {
+      "name": "Odoo Financial Module",
+      "isActive": false,
+      "description": "Developed a custom module for financial management, including invoice flow, budget commitments, and payments. Implemented a backup system to protect critical information.",
+      "highlights": [
+        "Developed a custom module for financial management",
+        "Implemented a backup system to protect critical information"
+      ],
+      "url": "https://github.com/achrafhardizi/customs",
+      "github": "https://github.com/achrafhardizi/customs"
+    },
+    {
+      "name": "WhatsApp Chatbot",
+      "isActive": false,
+      "description": "Built a WhatsApp chatbot that trains on a provided file and responds to users' questions within WhatsApp.",
+      "highlights": [
+        "Built a WhatsApp chatbot that trains on a provided file",
+        "Responds to users' questions within WhatsApp"
+      ],
+      "url": "Private Repo - Freelance",
+      "github": "Private Repo - Freelance"
+    },
+    {
+      "name": "Kanban Web Application",
+      "isActive": false,
+      "description": "A Kanban web application built with React and Shadcn UI for task management, integrated with Spring.",
+      "highlights": [
+        "Developed a Kanban web application using React and Shadcn UI",
+        "Integrated with Spring for backend functionalities"
+      ],
+      "url": "",
+      "github": "https://github.com/achrafhardizi/Kanban-Project"
+    }
+  ]
+}

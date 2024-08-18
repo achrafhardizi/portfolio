@@ -1,0 +1,48 @@
+@tailwind base;
+
+@layer base {
+  :root {
+    --color-text-base: 0, 0, 0;
+    --color-text-muted: 120, 120, 120;
+    --color-text-inverted: 255, 255, 255;
+    --color-fill: 245, 245, 245;
+    --muted: 200, 200, 200;
+    --color: 249, 115, 22;
+    --color-button-accent: 249, 115, 22;
+    --color-button-accent-hover: 55, 55, 55;
+    --color-button-muted: 244, 239, 238;
+  }
+
+  .dark {
+    --color-text-base: 255, 255, 255;
+    --color-text-muted: 150, 150, 150;
+    --color-text-inverted: 255, 255, 255;
+    --color-fill: 18, 18, 18;
+    --muted: 36, 36, 36;
+    --color: 227, 77, 10;
+    --color-button-accent: 227, 77, 10;
+    --color-button-accent-hover: 231, 121, 43;
+    --color-button-muted: 26, 26, 26;
+  }
+
+}
+
+.gradient-grid {
+  background-image: 
+    radial-gradient(circle at center center, transparent 0%, rgba(255, 255, 255, 0) 99%),
+    repeating-linear-gradient(0deg, rgba(205, 205, 205, 0.2) 0px, rgba(205, 205, 205, 0.2) 1px, transparent 1px, transparent 6px),
+    repeating-linear-gradient(90deg, rgba(205, 205, 205, 0.2) 0px, rgba(205, 205, 205, 0.2) 1px, transparent 1px, transparent 6px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+  
+  background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+  animation: verticalScroll 10s linear infinite;
+}
+
+@keyframes verticalScroll {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
